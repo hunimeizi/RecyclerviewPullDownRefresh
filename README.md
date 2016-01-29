@@ -10,5 +10,3 @@
 >>>>![github](https://raw.githubusercontent.com/hunimeizi/RecyclerviewPullDownRefresh/master/app/src/main/res/mipmap-hdpi/image3.png "github")
 >>>>
 >>>>>![github](https://raw.githubusercontent.com/hunimeizi/RecyclerviewPullDownRefresh/master/app/src/main/res/mipmap-hdpi/image4.png "github")
->>>>>
->>>>>>![github](https://raw.githubusercontent.com/hunimeizi/RecyclerviewPullDownRefresh/master/app/src/main/res/mipmap-hdpi/image5.png "github")
