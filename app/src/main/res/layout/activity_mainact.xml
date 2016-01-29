@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/mainAct_RecycleViewPullDownRefresh_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="myOnClick"
+        android:text="RecycleViewPullDownRefresh" />
+
+    <Button
+        android:id="@+id/mainAct_Qiantao_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="myOnClick"
+        android:text="ScrollView嵌套RecycleView解决冲突" />
+</LinearLayout>
