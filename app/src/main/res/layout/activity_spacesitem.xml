@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.recyclerviewpulldownrefresh.view.refresh.AbPullToRefreshView
+        android:id="@+id/home_pull_refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.recyclerviewpulldownrefresh.view.recyclerview.RefreshRecyclerView
+            android:id="@+id/home_refreshRecyclerView_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+    </com.recyclerviewpulldownrefresh.view.refresh.AbPullToRefreshView>
+</LinearLayout>

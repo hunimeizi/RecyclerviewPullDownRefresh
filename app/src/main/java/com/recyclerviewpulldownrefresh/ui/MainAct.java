@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.recyclerviewpulldownrefresh.R;
+import com.recyclerviewpulldownrefresh.ui.SpacesItem.SpacesItemAct;
 import com.recyclerviewpulldownrefresh.ui.recyclerviewandscrollview.ScrollViewAndRecyclerViewAtc;
 import com.recyclerviewpulldownrefresh.ui.recyclerviewpulldownrefresh.RecyclerViewPullDownRefreshAtc;
 
@@ -28,6 +29,9 @@ public class MainAct extends Activity {
                 break;
             case R.id.mainAct_Qiantao_btn:
                 startActivity(new Intent(MainAct.this, ScrollViewAndRecyclerViewAtc.class));
+                break;
+            case R.id.mainAct_pubuliu_btn:
+                startActivity(new Intent(MainAct.this, SpacesItemAct.class));
                 break;
         }
     }

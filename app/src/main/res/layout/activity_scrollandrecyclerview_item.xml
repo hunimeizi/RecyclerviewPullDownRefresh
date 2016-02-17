@@ -4,23 +4,25 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/mainAct_RecycleViewPullDownRefresh_btn"
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="myOnClick"
-        android:text="recycleView上下拉刷新" />
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@mipmap/image" />
 
-    <Button
-        android:id="@+id/mainAct_Qiantao_btn"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/scrollView_refreshRecyclerView_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="myOnClick"
-        android:text="ScrollView嵌套RecycleView解决冲突" />
-    <Button
-        android:id="@+id/mainAct_pubuliu_btn"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="myOnClick"
-        android:text="瀑布流" />
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@mipmap/image" />
+
 </LinearLayout>
